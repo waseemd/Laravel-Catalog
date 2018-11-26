@@ -1,6 +1,6 @@
 # Laravel-Catalog
 
-Makes a bare clone of the external repository in a local directory
+Make a clone of the external repository in a local directory
 
 git clone https://github.com/waseemd/Laravel_Catalog
 
@@ -22,4 +22,4 @@ php artisan migrate --seed
 
 Above command will do a migrating and seeding comand. Now serve the app and run locally.
 
-php artisan serve
+Run php artisan serve and go to the url 
