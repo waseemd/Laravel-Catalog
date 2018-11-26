@@ -8,13 +8,15 @@ cd Laravel-Catalog
 
 Secondly do an installation using composer
 
-composer install After all dependencies are completely downloaded, copy .env.example to .env and generate key for the application
+composer install 
+
+After all dependencies are completely downloaded, copy .env.example to .env and generate key for the application
 
 cp .env.example .env
 
 php artisan key:generate
 
-Dont forget to setting up an local database config inside .env. Then do a migration.
+Dont forget to set up a local database config inside .env. Then do a migration.
 
 php artisan migrate --seed
 
